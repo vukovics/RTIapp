@@ -1,0 +1,7 @@
+{
+  "name": "Walk",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
