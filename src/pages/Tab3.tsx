@@ -1,5 +1,6 @@
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
 import ExploreContainer from '../components/ExploreContainer';
+import Logout from '../components/Logout/Logout';
 import './Tab3.css';
 
 const Tab3: React.FC = () => {
@@ -7,6 +8,7 @@ const Tab3: React.FC = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
+          <Logout />
           <IonTitle>Tab 3</IonTitle>
         </IonToolbar>
       </IonHeader>
